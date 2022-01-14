@@ -91,30 +91,26 @@ hr {
 }
 
 .items {
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    line-height: 16px;
-    padding: 4px;
-    border-radius: 20px;
-    font-family: Georgia, serif;
-    font-weight: normal;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
-    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
-    box-shadow: rgba(0, 0, 0, 0.71) 5px 5px 11px 5px;
-    border: 2px solid rgb(28, 110, 164);
+    outline: 0;
+    border: 0;
+    padding: 8px;
+    background-image: linear-gradient(90deg, #3c6cc5, #538FFB);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
     display: inline-block;
-    margin-top: 5px;
-}
-
-.items:hover {
-    background: #1C6EA4;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 6px 0 #538FFB;
+    position: relative;
+    top: 0;
 }
 
 .items:active {
-    background: #144E75;
+    top: 5px;
+    box-shadow: 0 2px 0 #538FFB;
+    ;
+
 }
 
 .module-img {
